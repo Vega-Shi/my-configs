@@ -23,3 +23,9 @@ DOMAIN-SUFFIX,yahoofinance.com,Yahoo
 DOMAIN-SUFFIX,yahoomail.jp,Yahoo
 DOMAIN-SUFFIX,yahoomailbusiness.com,Yahoo
 DOMAIN-SUFFIX,yimg.com,Yahoo
+
+## > AOL
+DOMAIN-SUFFIX,aol.ca
+DOMAIN-SUFFIX,aol.co.uk
+DOMAIN-SUFFIX,aol.com
+DOMAIN-SUFFIX,aolnews.com
