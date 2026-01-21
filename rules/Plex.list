@@ -1,0 +1,15 @@
+# Plex 相关域名全走代理（优先于 GEOIP）
+DOMAIN-SUFFIX,plex.tv,PROXY
+DOMAIN-SUFFIX,plex.direct,PROXY          # Plex 的内部 direct 连接域名，常用于本地/远程 fallback
+DOMAIN-SUFFIX,provider.plex.tv,PROXY     # 元数据、图片、EPG 等核心 provider
+DOMAIN-SUFFIX,plex.bz,PROXY              # 老的 pubsub/proxy 等服务
+DOMAIN-SUFFIX,plexapp.com,PROXY          # 偶尔 fallback
+DOMAIN,images.plex.tv,PROXY
+DOMAIN,metadata.provider.plex.tv,PROXY
+DOMAIN,epg.provider.plex.tv,PROXY
+DOMAIN,discover.provider.plex.tv,PROXY
+DOMAIN,metadata-static.plex.tv,PROXY     # 静态元数据
+DOMAIN,vod.provider.plex.tv,PROXY        # 视频点播相关
+# 如果你用 Plex 的直播/EPG 或其他高级功能，可选加
+DOMAIN-SUFFIX,tvdb2.plex.tv,PROXY
+DOMAIN-SUFFIX,meta.plex.tv,PROXY
